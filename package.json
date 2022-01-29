@@ -1,0 +1,27 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "430 assignment streaming media assignment",
+  "main": "./src/server.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"tests completed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannialayan/streaming-media-assignment.git"
+  },
+  "author": "Giovanni Alayan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/giovannialayan/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/giovannialayan/streaming-media-assignment#readme"
+}
